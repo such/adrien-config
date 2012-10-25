@@ -35,8 +35,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 PATH=/usr/local/bin:$PATH
-VISUAL=/usr/local/bin/vim
-EDITOR=/usr/local/bin/vim
+export VISUAL="vi"
+export EDITOR="vi"
 
 export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m"
 
@@ -47,7 +47,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias h='history | grep '
-alias vi='vim'
 alias ..="cd .."
 alias cd..="cd .."
 
@@ -66,4 +65,5 @@ alias sshw="ssh amontfort@preprod.funkytowns.ggfactor.com -p 22022"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
-alias zshrc="vi ~/.zshrc"
+alias sz='source ~/.zshrc;git commit  ~/.zshrc -m "edit zshrc";git push origin master'
+alias ez='vim ~/.zshrc'
