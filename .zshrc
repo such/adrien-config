@@ -50,6 +50,8 @@ alias h='history | grep '
 alias ..="cd .."
 alias cd..="cd .."
 
+alias 'aa'='cd /Workspace/askalll/trunk/askalll'
+
 alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4.5.app/"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
