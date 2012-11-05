@@ -64,6 +64,7 @@ alias sshpp="ssh ggfactor@api-preprod.funkytowns.ggfactor.com"
 alias sshp="ssh ggfactor@api2.funkytowns.ggfactor.com"
 alias sshci="ssh ggfactor@ci.ggfactor.com"
 alias sshw="ssh amontfort@preprod.funkytowns.ggfactor.com -p 22022"
+alias sshvm="ssh adrien@devsrv"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
