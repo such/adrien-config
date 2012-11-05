@@ -70,3 +70,5 @@ alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashl
 
 alias sz='source ~/.zshrc;git commit  ~/.zshrc -m "edit zshrc";git push origin master'
 alias ez='vim ~/.zshrc'
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
