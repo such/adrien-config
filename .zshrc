@@ -57,7 +57,7 @@ alias st="open /Applications/Sublime\ Text\ 2.app"
 
 alias fttest="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Launch Tests - All\""
 alias ftasset="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Build Local Assets\""
-alias ftbuild="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Build Local\""
+alias ftbuild="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Build_Local\""
 alias ftclean="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Clean all\""
 
 alias sshpp="ssh ggfactor@api-preprod.funkytowns.ggfactor.com"
