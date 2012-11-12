@@ -35,6 +35,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 PATH=/usr/local/bin:$PATH
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
 export VISUAL="vi"
 export EDITOR="vi"
 
