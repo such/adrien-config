@@ -65,12 +65,12 @@ alias ftclean="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Clean all\""
 alias sshpp="ssh ggfactor@api-preprod.funkytowns.ggfactor.com"
 alias sshp="ssh ggfactor@api2.funkytowns.ggfactor.com"
 alias sshci="ssh ggfactor@ci.ggfactor.com"
-alias sshw="ssh amontfort@preprod.funkytowns.ggfactor.com -p 22022"
+alias sshw="ssh amontfort@origin-preprod.funkytowns.ggfactor.com -p 22022"
 alias sshvm="ssh adrien@devsrv"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
-alias sz='source ~/.zshrc;git commit  ~/.zshrc -m "edit zshrc";git push origin master'
+alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
