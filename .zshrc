@@ -67,6 +67,7 @@ alias sshp="ssh ggfactor@api2.funkytowns.ggfactor.com"
 alias sshci="ssh ggfactor@ci.ggfactor.com"
 alias sshw="ssh amontfort@origin-preprod.funkytowns.ggfactor.com -p 22022"
 alias sshvm="ssh adrien@devsrv"
+alias upft="cd $FUNKY_TOWN_HOME;svn up analytics build embedAssets infra loader puppet server server_admin test;cd -"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
