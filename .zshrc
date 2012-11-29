@@ -55,6 +55,7 @@ alias cd..="cd .."
 alias 'aa'='cd /Workspace/askalll/trunk/askalll'
 
 alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4.5.app/"
+alias rmine="open /Applications/RubyMine.app"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
 alias fttest="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Launch Tests - All\""
