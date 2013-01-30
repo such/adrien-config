@@ -40,7 +40,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export VISUAL="vi"
 export EDITOR="vi"
 
-export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m  -XX:ReservedCodeCacheSize=256m"
+export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSize=256m -Djava.awt.headless=true"
 
 export FUNKY_TOWN_HOME=~/workspace/funkytowns/trunk
 
