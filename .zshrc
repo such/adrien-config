@@ -69,7 +69,7 @@ alias sshci="ssh ggfactor@ci.ggfactor.com"
 alias sshw="ssh amontfort@origin-preprod.funkytowns.ggfactor.com -p 22022"
 alias sshvm="ssh adrien@devsrv"
 alias sshre="ssh ggfactor@replays.ggfactor.com"
-alias sshc1="ssh ggfactor@root.ggfactor.com"
+alias sshc1="ssh root@cloud1.ggfactor.com"
 alias sshcs="ssh ggfactor@cloudstack.ggfactor.com"
 alias ftup="cd $FUNKY_TOWN_HOME;svn up analytics build embedAssets infra loader puppet server server_admin test;cd -"
 
