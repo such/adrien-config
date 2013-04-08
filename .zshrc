@@ -41,6 +41,8 @@ export VISUAL="vi"
 export EDITOR="vi"
 set -o vi
 bindkey "^R" history-incremental-search-backward
+bindkey "^A" beginning-of-line
+bindkey "^E" end-of-line
 
 export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSize=256m -Djava.awt.headless=true"
 
