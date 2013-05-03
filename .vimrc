@@ -26,7 +26,6 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
-set undofile
 
 nnoremap / /\v
 vnoremap / /\v
@@ -60,3 +59,4 @@ au FocusLost * :wa
 let mapleader = ","
 
 nnoremap <leader>w <C-w>v<C-w>l
+cmap w!! w !sudo tee >/dev/null %
