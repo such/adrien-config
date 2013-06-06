@@ -36,7 +36,7 @@ source $ZSH/oh-my-zsh.sh
 export ANDROID_HOME=/Workspace/adt-bundle-mac-x86_64-20130219/sdk
 
 # Customize to your needs...
-PATH=/usr/local/bin:$PATH
+PATH=/usr/local/bin:/usr/local/sbin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$ANDROID_HOME/tools/:$ANDROID_HOME/platform-tools/
 
