@@ -52,6 +52,7 @@ export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSi
 export IDOLCAMP_HOME=~/workspace/idolcamp
 
 alias ic='cd $IDOLCAMP_HOME'
+alias ico='cd $IDOLCAMP_HOME/vendor/plugins/idolcore'
 alias a1='ssh robot@appserv1'
 
 alias ll='ls -alF'
