@@ -47,6 +47,8 @@ bindkey "^R" history-incremental-search-backward
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
 
+alias less='/usr/local/bin/less -r'
+
 export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSize=256m -Djava.awt.headless=true"
 
 export IDOLCAMP_HOME=~/workspace/idolcamp
