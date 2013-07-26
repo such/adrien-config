@@ -39,7 +39,7 @@ export ANDROID_HOME=/Workspace/adt-bundle-mac-x86_64-20130219/sdk
 PATH=/usr/local/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-PATH=$PATH:/usr/local/lib/app_engine
+PATH=$PATH:/usr/local/lib/go_appengine
 
 export VISUAL="vi"
 export EDITOR="vi"
