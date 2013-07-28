@@ -38,7 +38,8 @@ export ANDROID_HOME=/Workspace/adt-bundle-mac-x86_64-20130219/sdk
 # Customize to your needs...
 PATH=/usr/local/bin:/usr/local/sbin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:$ANDROID_HOME/tools/:$ANDROID_HOME/platform-tools/
+PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+PATH=$PATH:/usr/local/lib/go_appengine
 
 export VISUAL="vi"
 export EDITOR="vi"
@@ -47,11 +48,16 @@ bindkey "^R" history-incremental-search-backward
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
 
+alias less='/usr/local/bin/less -r'
+
 export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSize=256m -Djava.awt.headless=true"
 
-export FUNKY_TOWN_HOME=~/workspace/funkytowns/trunk
+export IDOLCAMP_HOME=~/workspace/idolcamp
 
-alias ft='cd $FUNKY_TOWN_HOME'
+alias ic='cd $IDOLCAMP_HOME'
+alias ico='cd $IDOLCAMP_HOME/vendor/plugins/idolcore'
+alias a1='ssh robot@appserv1'
+
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -65,20 +71,7 @@ alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4
 alias rmine="open /Applications/RubyMine.app"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
-alias fttest="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Launch Tests - All\""
-alias ftasset="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Build Local Assets\""
-alias ftbuild="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Build_Local\""
-alias ftclean="ant -f $FUNKY_TOWN_HOME/build/build.xml \"Clean all\""
 
-alias sshpp="ssh ggfactor@api-preprod.funkytowns.ggfactor.com"
-alias sshp="ssh ggfactor@api2.funkytowns.ggfactor.com"
-alias sshci="ssh ggfactor@ci.ggfactor.com"
-alias sshw="ssh amontfort@origin-preprod.funkytowns.ggfactor.com -p 22022"
-alias sshvm="ssh adrien@devsrv"
-alias sshre="ssh ggfactor@replays.ggfactor.com"
-alias sshc1="ssh root@cloud1.ggfactor.com"
-alias sshcs="ssh ggfactor@cloudstack.ggfactor.com"
-alias ftup="cd $FUNKY_TOWN_HOME;svn up analytics build embedAssets infra loader puppet server server_admin test;cd -"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
