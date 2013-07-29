@@ -60,3 +60,5 @@ let mapleader = ","
 
 nnoremap <leader>w <C-w>v<C-w>l
 cmap w!! w !sudo tee >/dev/null %
+
+syntax on
