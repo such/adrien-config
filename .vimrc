@@ -62,3 +62,10 @@ nnoremap <leader>w <C-w>v<C-w>l
 cmap w!! w !sudo tee >/dev/null %
 
 syntax on
+
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+nnoremap <C-p> :Unite file_rec<cr>
