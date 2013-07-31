@@ -41,7 +41,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 PATH=$PATH:/usr/local/lib/go_appengine
 
-GOPATH=$HOME/workspace
 GOROOT=/usr/local/Cellar/go/1.1.1
 
 export VISUAL="vi"
