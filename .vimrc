@@ -54,6 +54,7 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
+" autosave (ignore warning)
 au FocusLost * :wa
 
 let mapleader = ","
@@ -68,7 +69,4 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-nnoremap <C-p> :Unite file_rec<cr>
-
-" autosave (ignore warning)
-:au FocusLost * silent! wa
+nnoremap <C-p> :Unite -start-insert file_rec<cr>
