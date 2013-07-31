@@ -54,8 +54,7 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
-" autosave (ignore warning)
-au FocusLost * :wa
+let g:auto_save = 1  " enable AutoSave on Vim startup
 
 let mapleader = ","
 
