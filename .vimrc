@@ -69,3 +69,6 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 nnoremap <C-p> :Unite file_rec<cr>
+
+" autosave (ignore warning)
+:au FocusLost * silent! wa
