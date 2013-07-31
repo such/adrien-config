@@ -70,3 +70,4 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 nnoremap <C-p> :Unite -start-insert file_rec<cr>
+nnoremap <space>/ :Unite grep:.<cr>
