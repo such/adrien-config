@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/vimproc"]
 	path = .vim/bundle/vimproc
 	url = https://github.com/Shougo/vimproc.vim
+[submodule ".vim/bundle/auto-save"]
+	path = .vim/bundle/auto-save
+	url = https://github.com/907th/vim-auto-save
