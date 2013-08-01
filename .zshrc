@@ -59,6 +59,7 @@ export IDOLCAMP_HOME=~/workspace/idolcamp
 alias ic='cd $IDOLCAMP_HOME'
 alias ico='cd $IDOLCAMP_HOME/vendor/plugins/idolcore'
 alias a1='ssh robot@appserv1'
+alias dev1='ssh idol@dev1'
 
 alias ll='ls -alF'
 alias la='ls -A'
