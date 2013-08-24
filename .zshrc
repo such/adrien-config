@@ -39,6 +39,9 @@ export ANDROID_HOME=/Workspace/adt-bundle-mac-x86_64-20130219/sdk
 PATH=/usr/local/bin:$PATH
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+PATH=$PATH:/usr/local/lib/go_appengine
+
+GOROOT=/usr/local/Cellar/go/1.1.1
 
 export VISUAL="vi"
 export EDITOR="vi"
@@ -47,6 +50,8 @@ bindkey "^R" history-incremental-search-backward
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
 
+alias less='/usr/local/bin/less -r'
+
 export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSize=256m -Djava.awt.headless=true"
 
 export IDOLCAMP_HOME=~/workspace/idolcamp
@@ -54,6 +59,7 @@ export IDOLCAMP_HOME=~/workspace/idolcamp
 alias ic='cd $IDOLCAMP_HOME'
 alias ico='cd $IDOLCAMP_HOME/vendor/plugins/idolcore'
 alias a1='ssh robot@appserv1'
+alias dev1='ssh idol@dev1'
 
 alias ll='ls -alF'
 alias la='ls -A'
