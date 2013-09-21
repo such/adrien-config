@@ -49,7 +49,7 @@ set -o vi
 bindkey "^R" history-incremental-search-backward
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
-bindkey ‘^?’ backward-delete-char
+bindkey "^?" backward-delete-char
 
 alias less='/usr/local/bin/less -r'
 
