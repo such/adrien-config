@@ -1,5 +1,5 @@
 #!/bin/sh
-for f in .oh-my-zsh .vim .gitconfig .vimrc .zshrc; do
+for f in .oh-my-zsh .vim .gitconfig .vimrc .zshrc .gvimrc; do
 	ln -sf adrien-config/$f ~
 done
 mkdir ~/.MacOSX

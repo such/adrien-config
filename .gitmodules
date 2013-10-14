@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/auto-save"]
 	path = .vim/bundle/auto-save
 	url = https://github.com/907th/vim-auto-save
+[submodule ".vim/bundle/yankring"]
+	path = .vim/bundle/yankring
+	url = https://github.com/vim-scripts/YankRing.vim
