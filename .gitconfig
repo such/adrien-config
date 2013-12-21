@@ -5,3 +5,7 @@
 	helper = osxkeychain
 [core]
 	editor = vim
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always

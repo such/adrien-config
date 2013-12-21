@@ -54,9 +54,20 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
-au FocusLost * :wa
+let g:auto_save = 1  " enable AutoSave on Vim startup
 
 let mapleader = ","
 
 nnoremap <leader>w <C-w>v<C-w>l
 cmap w!! w !sudo tee >/dev/null %
+
+syntax on
+
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+nnoremap <C-p> :Unite -start-insert file_rec<cr>
+nnoremap <space>/ :Unite grep:.<cr>
+nnoremap <space>s :Unite -quick-match buffer<cr>
