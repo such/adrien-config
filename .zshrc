@@ -42,6 +42,7 @@ PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 PATH=$PATH:/usr/local/lib/go_appengine
 
 GOROOT=/usr/local/Cellar/go/1.1.1
+GOPATH=/usr/local/bin/go
 
 export VISUAL="vi"
 export EDITOR="vi"
