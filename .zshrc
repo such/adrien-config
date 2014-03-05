@@ -59,9 +59,6 @@ export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSi
 export IDOLCAMP_HOME=~/workspace/idolcamp
 
 alias ic='cd $IDOLCAMP_HOME'
-alias ico='cd $IDOLCAMP_HOME/vendor/plugins/idolcore'
-alias a1='ssh robot@appserv1'
-alias dev1='ssh idol@dev1'
 
 alias ll='ls -alF'
 alias la='ls -A'
@@ -70,13 +67,12 @@ alias h='history | grep '
 alias ..="cd .."
 alias cd..="cd .."
 
-alias 'aa'='cd /Workspace/askalll/trunk/askalll'
-
 alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4.5.app/"
 alias rmine="open /Applications/RubyMine.app"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
 alias z="zeus"
+alias bundle="bundle --jobs=4"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
@@ -85,3 +81,6 @@ alias ez='vim ~/.zshrc'
 
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
