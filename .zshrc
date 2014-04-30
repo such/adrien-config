@@ -72,7 +72,7 @@ alias rmine="open /Applications/RubyMine.app"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
 alias z="zeus"
-alias bundle="bundle --jobs=4"
+alias bi="bundle --jobs=4"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
