@@ -71,8 +71,9 @@ alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4
 alias rmine="open /Applications/RubyMine.app"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
-alias z="zeus"
 alias bi="bundle --jobs=4"
+alias rc="spring rails console"
+alias rk="spring rake"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
