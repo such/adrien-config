@@ -41,7 +41,8 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 PATH=$PATH:/usr/local/lib/go_appengine
 
-GOROOT=/usr/local/Cellar/go/1.1.1
+export GOROOT=/usr/local/Cellar/go/1.1.1
+export GOPATH=/Users/adrien/gocode
 
 export VISUAL="vi"
 export EDITOR="vi"
@@ -58,9 +59,6 @@ export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSi
 export IDOLCAMP_HOME=~/workspace/idolcamp
 
 alias ic='cd $IDOLCAMP_HOME'
-alias ico='cd $IDOLCAMP_HOME/vendor/plugins/idolcore'
-alias a1='ssh robot@appserv1'
-alias dev1='ssh idol@dev1'
 
 alias ll='ls -alF'
 alias la='ls -A'
@@ -69,13 +67,13 @@ alias h='history | grep '
 alias ..="cd .."
 alias cd..="cd .."
 
-alias 'aa'='cd /Workspace/askalll/trunk/askalll'
-
 alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4.5.app/"
 alias rmine="open /Applications/RubyMine.app"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
-alias z="zeus"
+alias bi="bundle --jobs=4"
+alias rc="spring rails console"
+alias rk="spring rake"
 
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
@@ -84,3 +82,6 @@ alias ez='vim ~/.zshrc'
 
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
