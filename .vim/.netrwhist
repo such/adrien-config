@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/adrien/workspace/idolcamp'
 let g:netrw_dirhist_2='/Users/adrien/.pow'
 let g:netrw_dirhist_3='/Users/adrien/workspace/idolcamp/vendor/plugins/idolcore'
+let g:netrw_dirhist_4='/Users/adrien/.rvm/gems/ruby-2.0.0-p247@idolcamp/bundler/gems/metric_fu-83bf64a96226/lib/metric_fu'
+let g:netrw_dirhist_5='/Users/adrien/.pow'
+let g:netrw_dirhist_6='/Users/adrien/workspace/js-xls-rails/.git'
+let g:netrw_dirhist_7='/Users/adrien/.pow'
+let g:netrw_dirhist_8='/Users/adrien/workspace/leaks/config/deploy'
