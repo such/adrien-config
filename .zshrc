@@ -29,7 +29,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx ruby rake svn brew cap gem vi-mode)
+plugins=(git osx ruby rake svn brew cap gem vi-mode bundler)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -71,7 +71,7 @@ alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4
 alias rmine="open /Applications/RubyMine.app"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
-alias bi="bundle --jobs=4"
+alias bi="bi --jobs=4"
 alias rc="spring rails console"
 alias rk="spring rake"
 
