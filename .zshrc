@@ -75,6 +75,8 @@ alias bi="bi --jobs=4"
 alias rc="spring rails console"
 alias rk="spring rake"
 
+alias vimr='open -a VimR.app --args "$@"'
+
 alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
