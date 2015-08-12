@@ -59,6 +59,7 @@ export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSi
 export IDOLCAMP_HOME=~/workspace/idolcamp
 
 alias ic='cd $IDOLCAMP_HOME'
+alias deploy='cap production deploy'
 
 alias ll='ls -alF'
 alias la='ls -A'
@@ -71,7 +72,6 @@ alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4
 alias rmine="open /Applications/RubyMine.app"
 alias st="open /Applications/Sublime\ Text\ 2.app"
 
-alias bi="bi --jobs=4"
 alias rc="spring rails console"
 alias rk="spring rake"
 
