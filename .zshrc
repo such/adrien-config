@@ -54,9 +54,9 @@ bindkey "^?" backward-delete-char
 
 alias less='/usr/local/bin/less -r'
 
-export IDOLCAMP_HOME=~/workspace/idolcamp
+export BTC_PLATFORM_HOME=~/workspace/Bitcoin-Platform
 
-alias ic='cd $IDOLCAMP_HOME'
+alias bp='cd $BTC_PLATFORM_HOME'
 alias deploy='cap production deploy'
 
 alias ll='ls -alF'
@@ -68,8 +68,6 @@ alias cd..="cd .."
 
 alias rc="spring rails console"
 alias rk="spring rake"
-
-alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
