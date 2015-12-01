@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-  <key>PATH</key>
-  <string>/Users/adrien/.rvm/gems/ruby-1.9.3-p327/bin:/Users/adrien/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/adrien/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/adrien/.rvm/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/adrien/.rvm/bin</string>
-  </dict>
-</plist>
