@@ -71,3 +71,9 @@ map <C-l> <C-W>l
 nnoremap <C-p> :Unite -start-insert file_rec<cr>
 nnoremap <space>/ :Unite grep:.<cr>
 nnoremap <space>s :Unite -quick-match buffer<cr>
+
+runtime macros/matchit.vim
+
+if has("autocmd")
+  filetype indent plugin on
+endif

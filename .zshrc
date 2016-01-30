@@ -54,11 +54,9 @@ bindkey "^?" backward-delete-char
 
 alias less='/usr/local/bin/less -r'
 
-export ANT_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=768m -XX:ReservedCodeCacheSize=256m -Djava.awt.headless=true"
+export BTC_PLATFORM_HOME=~/workspace/Bitcoin-Platform
 
-export IDOLCAMP_HOME=~/workspace/idolcamp
-
-alias ic='cd $IDOLCAMP_HOME'
+alias bp='cd $BTC_PLATFORM_HOME'
 alias deploy='cap production deploy'
 
 alias ll='ls -alF'
@@ -68,19 +66,17 @@ alias h='history | grep '
 alias ..="cd .."
 alias cd..="cd .."
 
-alias fb="open /Applications/Adobe\ Flash\ Builder\ 4.5/Adobe\ Flash\ Builder\ 4.5.app/"
-alias rmine="open /Applications/RubyMine.app"
-alias st="open /Applications/Sublime\ Text\ 2.app"
-
 alias rc="spring rails console"
 alias rk="spring rake"
-
-alias flashlogs="less ~/Library/Preferences/Macromedia/Flash\ Player/Logs/flashlog.txt"
 
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
 
+# export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export NVM_DIR="/Users/adrien/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
