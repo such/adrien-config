@@ -37,7 +37,6 @@ export ANDROID_HOME=/Workspace/adt-bundle-mac-x86_64-20130219/sdk
 
 # Customize to your needs...
 PATH=/usr/local/bin:/usr/local/sbin:$PATH
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 PATH=$PATH:/usr/local/lib/go_appengine
 
@@ -54,10 +53,10 @@ bindkey "^?" backward-delete-char
 
 alias less='/usr/local/bin/less -r'
 
-export BTC_PLATFORM_HOME=~/workspace/Bitcoin-Platform
+export STRATUMN_HOME=~/workspace/stratumn
 
-alias bp='cd $BTC_PLATFORM_HOME'
-alias deploy='cap production deploy'
+alias st='cd $STRATUMN_HOME'
+alias setup='. $STRATUMN_HOME/architecture/local/setup'
 
 alias ll='ls -alF'
 alias la='ls -A'
@@ -66,17 +65,21 @@ alias h='history | grep '
 alias ..="cd .."
 alias cd..="cd .."
 
-alias rc="spring rails console"
-alias rk="spring rake"
-
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
 
 # export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export NVM_DIR="/Users/adrien/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+function stratumn_cli_environment {
+  if [[ $STRATUMN_CONFIG_FILE ]]; then
+    echo '○ '
+  fi
+}
+PROMPT='%{$fg[green]%}$(stratumn_cli_environment)%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}${PWD/#$HOME/~} %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
