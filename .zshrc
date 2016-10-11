@@ -73,6 +73,8 @@ alias ez='vim ~/.zshrc'
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 function stratumn_cli_environment {
   if [[ $STRATUMN_CONFIG_FILE ]]; then
