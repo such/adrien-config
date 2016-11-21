@@ -64,8 +64,6 @@ alias cd..="cd .."
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
 
-# export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
-#
 export GOPATH=$HOME/workspace
 
 ### Added by the Heroku Toolbelt
@@ -79,4 +77,8 @@ function stratumn_cli_environment {
     echo '○ '
   fi
 }
+
+export DOCKERCLOUD_NAMESPACE="stratumn"
+
 PROMPT='%{$fg[green]%}$(stratumn_cli_environment)%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}${PWD/#$HOME/~} %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
+
