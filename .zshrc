@@ -64,7 +64,7 @@ alias cd..="cd .."
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
 
-export GOPATH=$HOME/workspace
+export GOPATH=$HOME/workspace/go
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
