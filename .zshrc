@@ -52,7 +52,7 @@ alias less='/usr/local/bin/less -r'
 export STRATUMN_HOME=~/workspace/stratumn
 
 alias st='cd $STRATUMN_HOME'
-alias setup='. $STRATUMN_HOME/architecture/local/setup'
+alias gost='cd $GOPATH/src/github.com/stratumn'
 
 alias ll='ls -alF'
 alias la='ls -A'
@@ -72,13 +72,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-function stratumn_cli_environment {
-  if [[ $STRATUMN_CONFIG_FILE ]]; then
-    echo '○ '
-  fi
-}
 
 export DOCKERCLOUD_NAMESPACE="stratumn"
-
-PROMPT='%{$fg[green]%}$(stratumn_cli_environment)%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}${PWD/#$HOME/~} %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
-
