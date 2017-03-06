@@ -1,13 +1,17 @@
 [user]
 	name = adrien
 	email = adrien.montfort@gmail.com
+	name = Adrien Montfort
 [credential]
 	helper = osxkeychain
 [core]
 	editor = vim
+	excludesfile = /Users/adrien/.gitignore
 [push]
 	default = simple
 [branch]
 	autosetuprebase = always
 [diff]
 	tool = opendiff
+[github]
+	user = such

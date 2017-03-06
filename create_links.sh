@@ -1,4 +1,5 @@
 #!/bin/sh
-for f in .oh-my-zsh .vim .gitconfig .vimrc .zshrc .gvimrc .ideavimrc; do
+
+for f in .vim .gitconfig .vimrc .gvimrc; do
 	ln -sf adrien-config/$f ~
 done
