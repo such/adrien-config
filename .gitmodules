@@ -31,3 +31,9 @@
 [submodule ".vim/bundle/vim-textobj-user"]
 	path = .vim/bundle/vim-textobj-user
 	url = https://github.com/kana/vim-textobj-user
+[submodule "custom/plugins/zsh-autosuggestions"]
+	path = custom/plugins/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule "custom/plugins/zsh-syntax-highlighting"]
+	path = custom/plugins/zsh-syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git

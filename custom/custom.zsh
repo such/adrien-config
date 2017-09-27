@@ -11,6 +11,8 @@ bindkey "^?" backward-delete-char
 export STRATUMN_HOME=$HOME/workspace/stratumn
 export GOPATH=$HOME/workspace/go
 
+export PATH=$PATH:$GOPATH/bin
+
 alias st='cd $STRATUMN_HOME'
 alias gost='cd $GOPATH/src/github.com/stratumn'
 
@@ -24,3 +26,5 @@ alias cd..="cd .."
 
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
+
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=magenta'

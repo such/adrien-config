@@ -283,6 +283,8 @@
 	<integer>0</integer>
 	<key>HotkeyCode</key>
 	<integer>0</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>0</integer>
 	<key>IRMemory</key>
@@ -340,7 +342,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>320 736 918 452 0 0 3200 1777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 57 1564 672 0 0 3200 1777 </string>
+	<string>0 1077 1620 700 0 0 3200 1777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1164,7 +1166,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-02-07T00:05:58Z</date>
+	<date>2017-07-19T10:05:50Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>ShowBookmarkName</key>
@@ -1210,6 +1212,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.13</string>
+	<string>3.1.beta.5</string>
 </dict>
 </plist>
