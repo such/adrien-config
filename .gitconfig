@@ -1,7 +1,7 @@
 [user]
-	name = adrien
-	email = adrien.montfort@gmail.com
+	email = adrien@stratumn.com
 	name = Adrien Montfort
+	signingkey = DE5C8CE2
 [credential]
 	helper = osxkeychain
 [core]
@@ -15,3 +15,5 @@
 	tool = opendiff
 [github]
 	user = such
+[commit]
+	gpgsign = true
