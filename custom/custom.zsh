@@ -36,3 +36,12 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=magenta'
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export PATH=$PATH:$JAVA_HOME/bin
 export PATH="/usr/local/sbin:$PATH"
+
+export TERM="xterm-256color"
+DEFAULT_USER="adrien"
+POWERLEVEL9K_MODE='nerdfont-complete'
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+POWERLEVEL9K_SHORTEN_DELIMITER=""
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+ZSH_THEME="powerlevel9k/powerlevel9k"

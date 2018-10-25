@@ -16,4 +16,4 @@
 [github]
 	user = such
 [commit]
-	gpgsign = true
+	gpgsign = false
