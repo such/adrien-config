@@ -6,6 +6,8 @@
 	<true/>
 	<key>AllowClipboardAccess</key>
 	<false/>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AnimateDimming</key>
 	<false/>
 	<key>AppleAntiAliasingThreshold</key>
@@ -322,7 +324,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdKAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAdCAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -350,13 +352,23 @@
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
 	<string>532 650 616 174 0 0 1680 1028 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
+<<<<<<< HEAD
 	<string>530 486 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 126 606 469 0 0 1680 1027 </string>
+=======
+	<string>1290 1052 620 392 0 0 3200 1777 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 128 606 469 0 0 3200 1777 </string>
+>>>>>>> 3315a9bd681262384ec2811627781b614e05c309
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>269 143 916 485 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
+<<<<<<< HEAD
 	<string>37 165 1564 830 0 0 1680 1027 </string>
+=======
+	<string>0 1194 1718 583 0 0 3200 1777 </string>
+>>>>>>> 3315a9bd681262384ec2811627781b614e05c309
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1188,6 +1200,8 @@
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>ShowBookmarkName</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
@@ -4549,6 +4563,10 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
+<<<<<<< HEAD
 	<string>3.2.1beta6</string>
+=======
+	<string>3.1.5.beta.2</string>
+>>>>>>> 3315a9bd681262384ec2811627781b614e05c309
 </dict>
 </plist>

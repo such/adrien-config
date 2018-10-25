@@ -11,6 +11,10 @@ bindkey "^?" backward-delete-char
 export WORKSPACE=$HOME/workspace
 export GOPATH=$WORKSPACE/go
 export PATH=$PATH:$GOPATH/bin
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 alias so='cd $WORKSPACE/sorare'
 alias soc='cd $WORKSPACE/sorare/infra/development;pry'
@@ -25,6 +29,8 @@ alias cd..="cd .."
 
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
+
+alias awk=gawk
 
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=magenta'
 export JAVA_HOME="$(/usr/libexec/java_home)"
