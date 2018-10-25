@@ -8,13 +8,12 @@ bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
 bindkey "^?" backward-delete-char
 
-export STRATUMN_HOME=$HOME/workspace/stratumn
-export GOPATH=$HOME/workspace/go
-
+export WORKSPACE=$HOME/workspace
+export GOPATH=$WORKSPACE/go
 export PATH=$PATH:$GOPATH/bin
 
-alias st='cd $STRATUMN_HOME'
-alias gost='cd $GOPATH/src/github.com/stratumn'
+alias so='cd $WORKSPACE/sorare'
+alias soc='cd $WORKSPACE/sorare/infra/development;pry'
 
 alias less='/usr/local/bin/less -r'
 alias ll='ls -alF'
@@ -28,3 +27,6 @@ alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc
 alias ez='vim ~/.zshrc'
 
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=magenta'
+export JAVA_HOME="$(/usr/libexec/java_home)"
+export PATH=$PATH:$JAVA_HOME/bin
+export PATH="/usr/local/sbin:$PATH"

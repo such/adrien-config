@@ -77,3 +77,5 @@ runtime macros/matchit.vim
 if has("autocmd")
   filetype indent plugin on
 endif
+
+autocmd filetype crontab setlocal nobackup nowritebackup
