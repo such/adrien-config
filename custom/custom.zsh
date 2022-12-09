@@ -19,7 +19,6 @@ export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 alias so='cd $WORKSPACE/sorare'
 alias soc='cd $WORKSPACE/sorare/infra/development;pry'
 
-alias less='/usr/local/bin/less -r'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -29,19 +28,14 @@ alias cd..="cd .."
 
 alias sz='source ~/.zshrc;cd ~/adrien-config/;git commit  ~/adrien-config/.zshrc -m "edit zshrc";git push origin master;cd -'
 alias ez='vim ~/.zshrc'
-
-alias awk=gawk
+gemcode() {
+  code $(bundle exec gem which $1)/../..
+}
 
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=magenta'
-export JAVA_HOME="$(/usr/libexec/java_home)"
-export PATH=$PATH:$JAVA_HOME/bin
 export PATH="/usr/local/sbin:$PATH"
 
 export TERM="xterm-256color"
 DEFAULT_USER="adrien"
-POWERLEVEL9K_MODE='nerdfont-complete'
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
-POWERLEVEL9K_SHORTEN_DELIMITER=""
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+RUBOCOP_DAEMON_USE_BUNDLER=1

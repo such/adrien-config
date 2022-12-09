@@ -43,3 +43,6 @@
 [submodule "custom/themes/powerlevel9k"]
 	path = custom/themes/powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k.git
+[submodule "custom/themes/powerlevel10k"]
+	path = custom/themes/powerlevel10k
+	url = git@github.com:romkatv/powerlevel10k.git

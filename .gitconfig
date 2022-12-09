@@ -1,3 +1,5 @@
+[rebase]
+  autostash = true
 [user]
 	email = adrien@sorare.com
 	name = Adrien Montfort
@@ -17,3 +19,7 @@
 	user = such
 [commit]
 	gpgsign = false
+[pull]
+	rebase = true
+[init]
+	defaultBranch = master
